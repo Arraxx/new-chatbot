@@ -1,0 +1,10 @@
+flask==1.1.1
+numpy>=1.9.2
+scipy>=0.15.1
+scikit-learn>=0.18
+itsdangerous==1.1.0
+gunicorn==19.9.0
+jinja2==2.10.1
+matplotlib>=1.4.3
+chatterbot==1.0.5
+PyYAML>=3.11
