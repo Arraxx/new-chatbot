@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
+from chatbot import chatty
 import os
 
 app = Flask(__name__)
@@ -13,7 +14,7 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
-    return str(chatbot.get_response(userText))
+    return str(chatty.get_response(userText))
 
 if __name__ == "__main__":
     app.run()
