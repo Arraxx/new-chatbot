@@ -8,3 +8,4 @@ jinja2==2.10.1
 matplotlib>=1.4.3
 chatterbot==1.0.5
 PyYAML>=3.11
+nltk==3.5
