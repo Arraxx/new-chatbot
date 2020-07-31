@@ -10,4 +10,4 @@ chatterbot==1.0.5
 PyYAML>=3.11,<4.0
 nltk==3.5
 chatterbot-corpus==1.2.0
-chatbot==1.5.2b
+ChatBot==1.5.2b
