@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
-from chatbot import chatbot
 import os
 
 app = Flask(__name__)
