@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
+from chatbot import chatbot
 import os
+import nltk
 
 app = Flask(__name__)
 app.static_folder = 'static'
