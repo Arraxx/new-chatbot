@@ -2,10 +2,9 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import os
-
 # Creating ChatBot Instancep
 
-chatbot = ChatBot(
+chatty = ChatBot(
     'CoronaBot',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
@@ -24,10 +23,10 @@ training_data_personal = open('training_data/simple.txt').read().splitlines()
 
 training_data = training_data_quesans + training_data_personal
 
-trainer = ListTrainer(chatbot)
+trainer = ListTrainer(chatty)
 trainer.train(training_data) 
 # Training with English Corpus Data 
-trainer_corpus = ChatterBotCorpusTrainer(chatbot)
+trainer_corpus = ChatterBotCorpusTrainer(chatty)
 trainer_corpus.train(
     'chatterbot.corpus.english'
 ) 
