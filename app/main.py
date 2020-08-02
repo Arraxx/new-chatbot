@@ -25,8 +25,9 @@ chatbot = ChatBot(
  # Training with Personal Ques & Ans 
 training_data_quesans = open('training_data/crime.txt').read().splitlines()
 training_data_personal = open('training_data/simple.txt').read().splitlines()
+training_data_conv = open('training_data/more.txt').read().splitlines()
 
-training_data = training_data_quesans + training_data_personal
+training_data = training_data_quesans + training_data_personal + training_data_conv
 
 trainer = ListTrainer(chatbot)
 trainer.train(training_data) 
