@@ -10,7 +10,7 @@ import os
 # Creating ChatBot Instancep
 
 chatbot = ChatBot(
-    'CoronaBot',
+    'Chatty',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         'chatterbot.logic.BestMatch',
