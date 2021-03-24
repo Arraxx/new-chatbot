@@ -4,7 +4,7 @@ scipy>=0.15.1
 scikit-learn>=0.18
 itsdangerous==1.1.0
 gunicorn==19.9.0
-jinja2==2.10.1
+jinja2==2.11.3
 matplotlib>=1.4.3
 chatterbot==1.0.5
 PyYAML>=3.11,<4.0
